@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+<section class="custom">
+    <div class="custom container mt-5">
+        <div class="jumbotron mx-5 bg-dark customJUMBO">
+            <h1 class="display-4">Coranavirus</h1>
+            <p class="lead">This is a simple <strong>Corona Tracker Application</strong> to keep you updated about the pandemic situation in Sweden.
+            </p>
+            <hr class="my-4 bg-danger" style="opacity: 0.6;">
+
+            <div class="tracker">
+              <h1>
+                  <span class="text-light">Cases:</span> <span class="text-warning"><%= sweden.cases %></span> 
+                  <span class="text-light">Deaths:</span> <span class="text-danger"><%= sweden.deaths %></span>
+              </h1>
+          </div>
+
+            <a class="btn btn-lg btn-outline-danger" target="_blank"
+                href="https://www.1177.se/sjukdomar--besvar/infektioner/ovanliga-infektioner/covid-19-coronavirus/"
+                role="button">Learn more
+            </a>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<%- include('partials/footer') %>
