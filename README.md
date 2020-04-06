@@ -19,6 +19,6 @@ All basics styles were done with the help of <strong>Boostrap 4.</strong>
 - Bootstraps CDN: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
 
 <h3><strong>API</strong></h3>
-- The API where found here:
+- The API used to make this corona tracker application where found here:
 https://github.com/novelcovid/api
 
